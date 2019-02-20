@@ -1,0 +1,57 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.prediction-header {
+	padding-bottom: 9px;
+	margin: 20px 0 20px;
+	border-bottom: 1px solid #eee;
+	text-align: left;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.points-header {
+  	padding-bottom: 9px;
+	margin: 20px 0 20px;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+.para-nopadding {
+	color: #a94442;
+	margin: 0;
+    padding: 0;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
